@@ -1,0 +1,177 @@
+#title {
+    font-family: 'Indie Flower', cursive;
+    padding-top: 15px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AA3939;
+    background-blend-mode: soft-light;
+    line-height: 1.6;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    background-color: #FFAAAA;
+    color: #550000;
+    margin: 25px;
+    text-align: center;
+}
+
+.header {
+    background-color: #FFAAAA;
+    color: #550000;
+    margin: 25px;
+    text-align: center;
+}
+
+.cont {
+    background-color: #FFAAAA;
+    color: #550000;
+    margin: 25px;
+}
+
+#subtitle {
+    padding-bottom: 25px;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.searchbar {
+    display: flex;
+    margin: 25px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFAAAA;
+}
+
+.search {
+    color: #550000;
+    font-size: 200%;
+}
+
+.search:link {
+    text-decoration: none;
+    color: #550000
+}
+
+.search:visited {
+    text-decoration: none;
+    color: #550000;
+}
+
+.search:hover {
+    text-decoration: none;
+    color: #B15983;
+}
+
+#heading {
+    padding-top: 0px;
+    font-size: 300%;
+}
+
+#writing {
+    font-size: 140%;
+    padding: 25px;
+    padding-top: 12.5px;
+    padding-bottom: 25px;
+}
+
+#front {
+    background-color: #FFAAAA;
+    color: #550000;
+    margin: 25px;
+    padding: 25px;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.poem {
+    background-color: #FFAAAA;
+    color: #550000;
+    margin: 50px;
+    font-weight: 600;
+}
+
+#es {
+    display: none;
+    padding: 25px;
+}
+
+#sal {
+    display: none;
+    padding: 25px;
+}
+
+#pan {
+    display: none;
+    padding: 25px;
+}
+
+#sh {
+    display: none;
+    padding: 25px;
+}
+
+#op {
+    display: none;
+    padding: 25px;
+}
+
+#tr {
+    display: none;
+    padding: 25px;
+}
+
+#otter {
+    display: none;
+    padding: 25px;
+}
+
+#oct {
+    display: none;
+    padding: 25px;
+}
+
+#pof {
+    display: none;
+    padding: 25px;
+}
+
+.image {
+    height: auto;
+    width: auto;
+    max-height: 300px;
+}
+
+.poemcont {
+    background-color: #FFAAAA;
+    width: 100%;
+}
+
+.buttonp {
+    background-color: inherit;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    position: 5;
+    font-size: 200%;
+    margin: 50px;
+    color: #550000;
+    padding: 10px
+}
+
+#about {
+    text-align: left;
+    color: #550000;
+    padding: 25px;
+    font-size: 200%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+
+<body id="test">
+
+    <div>
+        <button class="buttonp" onclick="rPoem()">The Salmon</button>
+    </div>
+    <script>
+        let poems = [
+            'a',
+            'b',
+            'c',
+            'd',
+            'e',
+        ]
+
+        function rPoem() {
+            let randomNumber = Math.floor(Math.random() * poems.length);
+            document.getElementById("test").innerHTML = quotes[randomNumber]
+
+        }
+    </script>
+
+
+</body>
+
+
+</html>
